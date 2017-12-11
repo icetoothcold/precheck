@@ -16,6 +16,8 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
+    ASYNCMODE= None
+    BASEHOST = "10.221.155.200"
 
 
 config = {
